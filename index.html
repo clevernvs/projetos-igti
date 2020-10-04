@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./utils/css/materialize.min.css" />
+    <link rel="stylesheet" href="./utils/css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- Label Enunciate -->
+    <div class="container">
+      <div class="row section center-align">
+        <h3 class="teal-text">Pesquisa de usuários</h3>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="container">      
+      <!-- User Search bar -->
+      <div class="row section">
+        <div class="col l12">
+          <form action="#">
+            <div class="input-field">
+              <label for="user_search" autofocus>Buscar</label>
+              <input id="inputSearchUser" class="validate col l11" type="text" placeholder="Digite o usuário" />
+              <button id="btnSearchUser" class="waves-effect btn col l1" onclick="searchUser()"><i class="small material-icons">search</i></button>              
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row section">
+
+        <!-- Section: Users -->
+        <div class="section col l6">
+          <h5>Usuários encontrados: (<span id="countUsers"></span>) usuários.</h5>            
+          <div id="tabUsers"></div>
+        </div>
+
+        <!-- Section: Users Statics -->
+        <div class="section col l6">
+          <div id="tabStatics">
+            <div class="row">
+              <h5>Estatisticas: </h5>
+            </div>
+            <div class="row">
+              Sexo Masculino: <strong><span id="totalGenderM"></span></strong>
+            </div>
+            <div class="row">
+              Sexo Feminino: <strong><span id="totalGenderF"></span></strong>
+            </div>
+            <div class="row">
+              Soma das idades: <strong><span id="sumAges"></span></strong>
+            </div>
+            <div class="row">
+              Média das idades: <strong><span id="averageAges"></span></strong>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    
+    <script src="./utils/js/script.js"></script>
+    <script src="./utils/js/materialize.min.js"></script>
+  </body>
+</html>
