@@ -7,7 +7,6 @@ const INSS_TABLE = [
     maxValue: 1045,
     difference: 1045 - 0,
     discountPercentage: 0.075,
-    discountValue: -1,
   },
   {
     id: 2,
@@ -49,13 +48,13 @@ function calculateDiscountINSS(baseINSS) {
 
     if (baseINSS > currentItem.maxValue) {
       // prettier-ignore
-      discountValue = 
+      discountValue =
         round(currentItem.difference * currentItem.discountPercentage);
 
       discountINSS += discountValue;
     } else {
       // prettier-ignore
-      discountValue = 
+      discountValue =
         round((baseINSS - currentItem.minValue) * currentItem.discountPercentage);
 
       discountINSS += discountValue;
@@ -73,12 +72,12 @@ function calculateDiscountIRPF(baseIRPF) {
     baseIRPF < 1903.98
       ? 0
       : baseIRPF < 2826.65
-      ? round(baseIRPF * 0.075) - 142.8
-      : baseIRPF < 3751.05
-      ? round(baseIRPF * 0.15) - 354.8
-      : baseIRPF < 4664.68
-      ? round(baseIRPF * 0.225) - 636.13
-      : round(baseIRPF * 0.275) - 869.36;
+        ? round(baseIRPF * 0.075) - 142.8
+        : baseIRPF < 3751.05
+          ? round(baseIRPF * 0.15) - 354.8
+          : baseIRPF < 4664.68
+            ? round(baseIRPF * 0.225) - 636.13
+            : round(baseIRPF * 0.275) - 869.36;
 
   discountIRPF = round(discountIRPF);
 
@@ -94,12 +93,19 @@ function calculateSalaryFrom(fullSalary) {
 
   const netSalary = baseINSS - discountINSS - discountIRPF;
 
+  const percentINSS = +(discountINSS / fullSalary * 100).toFixed(2);
+  const percentIRPF = +(discountIRPF / fullSalary * 100).toFixed(2);
+  const percentNetSalary = +(netSalary / fullSalary * 100).toFixed(2);
+
   return {
     baseINSS,
     discountINSS,
     baseIRPF,
     discountIRPF,
     netSalary,
+    percentINSS,
+    percentIRPF,
+    percentNetSalary,
   };
 }
 
