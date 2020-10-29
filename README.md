@@ -2,15 +2,18 @@
 
 Aplicação de filtragem de usuários e exibição de suas estatísticas.
 
-### Objetivo:
+### Objetivo
 
-- Criar uma aplicação para filtrar usuários e mostrar estatísticas a partir do filtro definido.
+Implementar uma aplicação para filtrar usuários e mostrar estatísticas a partir do filtro definido.
 
-### Tecnologias utilizas:
+### O que foi utilizado
 
-- HTML;
-- CSS;
-- framework CSS - [Materialize](https://materializecss.com).;
-- Javascript;
+- HTML
+- CSS
+- [Materialize]
+- Javascript
 
-_Esse projeto é parte do treinamento do [Bootcamp Desenvolvedor Full Stack](https://www.igti.com.br/custom/bootcamp-desenvolvedor-full-stack/), do [IGTI](https://www.igti.com.br/)._
+_@Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack**, do IGTI._
+
+[igti]:<https://www.igti.com.br/>
+[materialize]:<https://materializecss.com>
