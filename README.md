@@ -5,7 +5,7 @@ valor do salário bruto, considerando as regras da CLT de 2020.
 
 ### Objetivo
  
-Implementar, utilizando React JS, uma aplicação capaz de calcular o salário líquido a partir do
+Implementar, utilizando React JS e abordando somente componentes de classes, uma aplicação capaz de calcular o salário líquido a partir do
 salário bruto, calculando as regras utilizadas pela CLT de 2020.
 
 Como referência, o projeto foi idealizado utilizando como base a calculadora de salário líquido do site [Toda Carreira](https://www.todacarreira.com/calculo-salario-liquido/).
