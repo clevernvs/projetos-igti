@@ -8,7 +8,7 @@ valor do salário bruto, considerando as regras da CLT de 2020.
 Implementar, utilizando React JS e abordando somente componentes de classes, uma aplicação capaz de calcular o salário líquido a partir do
 salário bruto, calculando as regras utilizadas pela CLT de 2020.
 
-Como referência, o projeto foi idealizado utilizando como base a calculadora de salário líquido do site [Toda Carreira](https://www.todacarreira.com/calculo-salario-liquido/).
+O projeto foi idealizado utilizando como referência a calculadora de salário líquido do site [Toda Carreira](https://www.todacarreira.com/calculo-salario-liquido/).
 
 ### Utilizando o projeto
 
@@ -22,9 +22,10 @@ $ yarn install
 $ yarn start
 ```
 
-### O que foi Utilizado
+### O que foi utilizado
 
 - [ReactJS]
+- [Materialize]
 
 
 _@Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack**, do **[IGTI]**._
@@ -32,3 +33,4 @@ _@Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack**,
 
 [igti]: <https://www.igti.com.br/>
 [reactjs]: <https://pt-br.reactjs.org/>
+[materialize]: <https://materializecss.com/>
