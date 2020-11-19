@@ -1,7 +1,5 @@
 # Bank API
 
-Trabalho Prático do Módulo 4 - Persistência de dados, versionamento de código e implantação.
-
 API integrada ao MongoDB Atlas cujo o schema dos dados será definido pelo mongoose. 
 Esta API terá alguns endpoints para manipulação dos dados.
 
@@ -25,7 +23,4 @@ $ node app.js
 - Mongoose
 - MongoDBAtlas
 
-_Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack**, do **[IGTI]**._
-
-[//]: # 'Referencia'
-[igti]: <https://www.igti.com.br/>
+**Módulo 04 - Trabalho Prático.** | _Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack** do [IGTI](https://www.igti.com.br/)._
