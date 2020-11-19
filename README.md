@@ -6,14 +6,11 @@ Aplicação de filtragem de usuários e exibição de suas estatísticas.
 
 Implementar uma aplicação para filtrar usuários e mostrar estatísticas a partir do filtro definido.
 
-### O que foi utilizado
+### Recursos utilizados
 
 - HTML
-- CSS
-- [Materialize]
+- Materialize - Framework CSS
 - Javascript
 
-_@Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack**, do IGTI._
-
-[igti]:<https://www.igti.com.br/>
-[materialize]:<https://materializecss.com>
+**Módulo 01 - Desafio Final.**
+_@ Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack** do [IGTI](https://www.igti.com.br/)._
