@@ -1,16 +1,16 @@
 # Edit Color in RGB
 
-Aplicação para visualizar cores em RGB a partir da seleção dos canais (R) - Red, (G) - Green e (B) - Blue.
+Aplicação para visualizar e modificar cores em RGB.
 
 ### Objetivo:
 
-- Construir, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
+Construir uma aplicação para a visualização e modificação de cores a partir da seleção dos canais (R)Red, (G)Green e (B)Blue.
 
-### Tecnologias utilizas:
+### Recursos utilizados:
 
 - HTML;
-- CSS;
-- framework CSS - [Materialize](https://materializecss.com).;
+- Materialize CSS - Framework CSS;
 - Javascript;
 
-_Esse projeto é parte do treinamento do [Bootcamp Desenvolvedor Full Stack](https://www.igti.com.br/custom/bootcamp-desenvolvedor-full-stack/), do [IGTI](https://www.igti.com.br/)._
+**Módulo 01 - Trabalho Prático.**
+_@ Esse projeto é parte do treinamento do **Bootcamp Desenvolvedor Full Stack** do [IGTI](https://www.igti.com.br/)._
