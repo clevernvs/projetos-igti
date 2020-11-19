@@ -2,11 +2,11 @@
 
 API para controlar nota dos alunos em matérias de um curso.
 
-##### Objetivo:
+### Objetivo:
 
 Desenvolver uma API chamada “grades-control-api” para controlar notas de alunos em matérias de um curso.
 
-##### Utilizando o projeto
+### Utilizando o projeto
 
 Instalando as dependências
 ```sh
@@ -18,7 +18,7 @@ Subindo o servidor
 $ node index.js
 ```
 
-##### Recursos utilizados
+### Recursos utilizados
 
 - Node.js
 - Express
