@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Modulo 1</title>
+    <link rel="stylesheet" href="./utils/css/style.css" />
+    <link rel="stylesheet" href="./utils/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="container">
+      <div class="row center-align">
+        <h1 class="card-panel teal lighten-2 white-text">Editor de cor em RGB</h1>
+      </div>
+
+      <!-- Inputs RGB -->
+      <div class="container">
+
+        <!-- Label: Selecionar Cor -->
+        <div class="row center-align">
+          <div class="col s8 l12">
+            <p class="flow-text">
+              <i class="small material-icons">colorize</i> Selecione a cor:
+            </p>
+            <div class="divider"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col ">
+              <div class="row">
+                <!-- (Red) -->
+                <div class="col l12">
+                  <div class="col l10">
+                    <p class="range-field">
+                      <label class="label red-text">(R) Red: </label>
+                      <input id="rangeRed" type="range" value="0" min="0" max="255" onchange="modifyPanelColor()" />
+                    </p>
+                  </div>
+                  <div class="col l2">
+                    <input id="inputViewRed" class="input-view" type="text" value="0" readonly />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- (Green) -->
+                <div class="col l12">
+                  <div class="col l10">
+                    <p class="range-field">
+                      <label class="label green-text">(G) Green: </label>
+                      <input id="rangeGreen" type="range" value="0" min="0" max="255" onchange="modifyPanelColor()" />
+                    </p>
+                  </div>
+                  <div class="col s2 l2">
+                    <input id="inputViewGreen" class="input-view" type="text" value="0" readonly />
+                  </div>
+                </div>
+
+              </div>
+              
+              <div class="row">
+                <!-- (Blue) -->
+                <div class="col s8 l12">
+                  <div class="col s6 l10">
+                    <p class="range-field">
+                      <label class="label blue-text">(B)Blue: </label>
+                      <input id="rangeBlue" type="range" value="0" min="0" max="255" onchange="modifyPanelColor()" />
+                    </p>
+                  </div>
+                  <div class="col s2 l2">
+                    <input id="inputViewBlue" class="input-view" type="text" value="0" readonly />
+                  </div>
+                </div>
+
+              </div>
+
+          </div>
+          <div class="col l4">
+            <div class="center-align">
+              <!-- PanelColor -->
+              <div id="panelColor"></div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="./utils/js/materialize.min.js"></script>
+    <script src="./utils/js/script.js"></script>
+  </body>
+</html>
