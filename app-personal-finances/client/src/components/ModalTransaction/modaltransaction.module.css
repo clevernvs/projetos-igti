@@ -1,0 +1,36 @@
+.form {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.close {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+.flexRowType {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 5px;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.flexLastRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

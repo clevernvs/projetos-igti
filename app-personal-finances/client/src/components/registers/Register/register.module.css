@@ -1,0 +1,50 @@
+.expenseBox {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: #efa2a5;
+  margin-bottom: 10px;
+  padding: 7px 5px;
+}
+
+.incomeBox {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: #b8f2e1;
+  margin-bottom: 10px;
+  padding: 7px 5px;
+}
+
+.dayBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 5%;
+}
+.dayBox > div {
+  padding-left: 3px;
+  font-weight: bold;
+}
+.description {
+  flex: 75%;
+}
+.textDescription {
+  font-size: 0.9rem;
+}
+.category {
+  font-weight: bold;
+}
+.value {
+  display: flex;
+  flex: 10%;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 10%;
+}
