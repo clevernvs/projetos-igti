@@ -16,12 +16,35 @@
 
 <h1>Projetos realizados</h1>
 
- <ul>
-     <li>Bank API</li>
-     <li>Calculadora de juros composto</li>
-     <li>Calculadora de salario</li>
-     <li>City and states</li>
-     <li>Editor de cores em RGB</li>
-     <li>Grades Control</li>
-     <li>User Search</li>
- </ul>
+<h2>Módulo 1 - Fundamentos</h2>
+
+<ul>
+  <li>RGB Selector</li>
+  <li>User Search</li>
+</ul>
+
+<h2>Módulo 2 - Desenvolvimento de API</h2>
+
+<ul>
+  <li>Cities and States API</li>
+  <li>Grades Control API</li>
+</ul>
+
+<h2>Módulo 3 - Front-end em ReactJS</h2>
+
+<ul>
+  <li>Calculadora Salário</li>
+  <li>Calculadora Juros Composto</li>
+</ul>
+
+<h2>Módulo 4 - Persistencia de Dados, Versionamento e Implantação</h2>
+
+<ul>
+  <li>My Bank API</li>
+  <li>Modelagem de Dados para API</li>
+</ul>
+
+<h2>Desafio Final</h2>
+<ul>
+  <li>Aplicação de controle financeiro</li>
+</ul>
